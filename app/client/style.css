@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Proxima+Nova+Soft');
 div {
-  font-family: "Proxima Nova Soft";
+  font-family: 'proxima-nova-soft', sans-serif;
 }
 
 .ui.borderless.transparent.topmenu.menu {

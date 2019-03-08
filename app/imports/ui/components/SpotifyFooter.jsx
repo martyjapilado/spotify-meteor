@@ -12,6 +12,7 @@ export default class TopMenu extends React.Component {
       backgroundColor: 'black',
       marginTop: '75px',
       paddingLeft: '300px',
+      fontWeight: 'bold'
     };
     const columnStyle = { width: '100px' };
     return (
@@ -37,9 +38,9 @@ export default class TopMenu extends React.Component {
             </Grid.Column>
             <Grid.Column width={3}>
               <Menu style={menuStyle}>
-                <Icon size='large' name='instagram' inverted color='white'/>
-                <Icon size='large' name='facebook' inverted color='white'/>
-                <Icon size='large' name='twitter' inverted color='white'/></Menu>
+                <Icon size='big' name='instagram' circular inverted color='gray'/>
+                <Icon size='big' name='facebook' circular inverted color='gray'/>
+                <Icon size='big' name='twitter' circular inverted color='gray'/></Menu>
             </Grid.Column>
           </Grid.Row>
 
